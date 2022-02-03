@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+.foda{
+    background-color: #587B7F;
+    border: 1px solid black;
+    width: 90%;
+    margin: 0 auto;
+    width: 50%;
+    height: auto;
+    margin:5% auto;
+    padding: 20px;
+}
+.foda fieldset{
+    margin-bottom: 12px;
+}
+legend{
+    font-family: 'Roboto', sans-serif;
+    background-color: #E2C044;
+    padding: 5px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.foda fieldset ul li{
+    font-family: 'Montserrat', sans-serif;
+}

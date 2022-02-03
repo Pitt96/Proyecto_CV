@@ -1,0 +1,94 @@
+/*Esta importacion, hace referencia a la tipo de letras de google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+
+ body{
+     margin: 0px;
+     padding: 0px;
+     background: #D3D0CB;
+ }
+ .name{
+     width: 100%;
+     height: 300px;
+     background: #E2C044;
+ }
+ .name .contenido{
+     width: 50%;
+     height: 50%;
+     position: absolute;
+     left: 25%;
+ }
+ .name .contenido .p-nombre{
+     color: #1E2019;
+     font-weight: bolder;
+     font-size: 50px;
+     border-bottom: 2px #1E2019 dashed;
+     font-family: 'Roboto', sans-serif;
+ }
+ .name .contenido .perfil{
+    color: #1E2019;
+    font-weight: bolder;
+    font-size: 15px;
+    
+ }
+ .name .contenido .p-menu{
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+ }
+ .name .contenido .p-menu a{
+    text-decoration: none;
+    padding: 10px;
+ }
+ .name .contenido .p-nombre a{
+     text-decoration: none;
+ }
+ .name .imagen{
+     position: absolute;
+     top: 8%;
+     left: 5%;
+     width: 180px;
+     height: 180px;
+     border-radius: 100%;
+     overflow: hidden;
+ }
+ .datos{
+     width: 70%;
+     height: auto;
+     background: #587B7F;
+     margin:5% auto;
+     padding: 20px;
+ }
+ .datos .tituloSeccion{
+     color: #D3D0CB;
+     font-family: 'Roboto', sans-serif;
+     font-size: xx-large;
+     text-align: center;
+     font-weight: bolder;
+     border-bottom: 2px #1E2019 dashed;
+ }
+ .datos .tituloDato{
+    color: #D3D0CB;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size:large;
+    display: inline;
+    margin-right: 20px;
+ }
+ .datos .info{
+    color: #1e2019;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    font-size:large;
+    display: inline;
+ }
+ .datos span{
+     display: inline-block;
+     width: auto;
+     height: auto;
+     padding-left: 1%;
+     padding-right: 1%;
+     background: #E2C044;
+     color: #D3D0CB;
+     font-family: 'Montserrat', sans-serif;
+     border-radius: 5px;
+ }
+ 
